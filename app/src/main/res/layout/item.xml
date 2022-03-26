@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="326dp"
+        android:layout_height="136dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtAssignment"
+            android:layout_width="338dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="@string/assignmentName" />
+
+        <TextView
+            android:id="@+id/txtProfessor"
+            android:layout_width="338dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:text="@string/professor" />
+
+        <TextView
+            android:id="@+id/txtDate"
+            android:layout_width="337dp"
+            android:layout_height="29dp"
+            android:layout_weight="1"
+            android:text="@string/date" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="18dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:contentDescription="@string/delete"
+        android:text="Eliminar" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MVVM-Assignments-App</string>
+    <string name="assignmentName">Nombre tarea:</string>
+    <string name="professor">Profesor:</string>
+    <string name="date">Fecha entrega:</string>
+    <string name="delete">Eliminar</string>
+</resources>
